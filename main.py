@@ -1,5 +1,5 @@
 import streamlit as st
-import zxcvbn
+from pyzxcvbn import zxcvbn
 from streamlit_extras.metric_cards import style_metric_cards
 
 def check_password_strength(password):
