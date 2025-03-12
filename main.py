@@ -59,3 +59,10 @@ def main():
 if __name__ == "__main__":
     main()
 
+
+# Footer
+st.markdown("---")
+st.markdown(
+    '<p class="footer">🚀 Made by Syed Ahsan | © 2025 All Rights Reserved</p>',
+    unsafe_allow_html=True
+)
